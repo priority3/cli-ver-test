@@ -1,0 +1,18 @@
+{
+  "name": "nrm-npm",
+  "version": "1.0.1-beta.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it",
+    "release:pre": "release-it --preRelease=beta"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^15.0.0"
+  }
+}
